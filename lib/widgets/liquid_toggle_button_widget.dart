@@ -127,10 +127,11 @@ class _MvLiquidToggleButtonState extends State<MvLiquidToggleButton> {
               decoration: BoxDecoration(
                 color: widget.circleCollor,
                 borderRadius: isTeardrop
+               
                     ? BorderRadius.only(
                         topLeft: isLeft
-                            ? Radius.circular(cornerRadius )
-                            : Radius.circular(cornerRadius ),
+                            ? Radius.circular(cornerRadius)
+                            : Radius.circular(cornerRadius),
                         bottomLeft: isLeft
                             ? Radius.circular(cornerRadius)
                             : Radius.circular(cornerRadius),
@@ -141,9 +142,8 @@ class _MvLiquidToggleButtonState extends State<MvLiquidToggleButton> {
                             ? Radius.circular(cornerRadius)
                             : Radius.circular(cornerRadius),
                       )
-                   // Initially circular
-                    :  BorderRadius.circular(
-                        widget.buttonHeight - 2), 
+                    // Initially circular
+                    : BorderRadius.circular(widget.buttonHeight - 2),
               ),
             ),
           ),
