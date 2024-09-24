@@ -127,7 +127,7 @@ class _MvLiquidToggleButtonState extends State<MvLiquidToggleButton> {
               decoration: BoxDecoration(
                 color: widget.circleCollor,
                 borderRadius: isTeardrop
-                    // shape morphing
+               
                     ? BorderRadius.only(
                         topLeft: isLeft
                             ? Radius.circular(cornerRadius)
